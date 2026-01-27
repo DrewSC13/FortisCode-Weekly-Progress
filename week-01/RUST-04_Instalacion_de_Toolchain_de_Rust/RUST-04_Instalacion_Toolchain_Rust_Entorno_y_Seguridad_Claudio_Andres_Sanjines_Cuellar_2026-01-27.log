@@ -1,0 +1,57 @@
+RUST-04 – Instalación de Toolchain de Rust (Evidencia Ampliada)
+Autor: Claudio Andres Sanjines Cuellar
+Fecha: 2026-01-27
+Sprint: 01 – Semana 1
+===================================================
+
+[1] Rust Compiler
+rustc 1.93.0 (254b59607 2026-01-19)
+
+[2] Cargo Package Manager
+cargo 1.93.0 (083ac5135 2025-12-15)
+
+[3] Ejecución Hola Mundo
+Hola Mundo
+
+[4] Cargo Clippy
+clippy 0.1.93 (254b59607d 2026-01-19)
+
+[5] Docker
+Docker version 27.5.1+dfsg4, build cab968b3
+Docker Compose version 2.32.4-3
+
+[6] GPG Configuración
+true
+/home/prometheus/.gnupg/pubring.kbx
+-----------------------------------
+sec   rsa4096/FF52F02BBCD553B3 2026-01-23 [SC] [caduca: 2027-01-23]
+      0070186B3102CE9F681A38A5FF52F02BBCD553B3
+uid              [  absoluta ] DrewSC13 (GitHub Commit Signing) <drew_13_@outlook.com>
+ssb   rsa4096/A1ECCBAA58CEFE1E 2026-01-23 [E] [caduca: 2027-01-23]
+
+
+[7] SSH GitHub
+
+[8] Cifrado de Disco (LUKS)
+/dev/mapper/nvme0n1p3_crypt is active and is in use.
+  type:    LUKS2
+  cipher:  aes-xts-plain64
+  keysize: 512 [bits]
+  key location: keyring
+  device:  /dev/nvme0n1p3
+  sector size:  512 [bytes]
+  offset:  32768 [512-byte units] (16777216 [bytes])
+  size:    996179968 [512-byte units] (510044143616 [bytes])
+  mode:    read/write
+  flags:   discards 
+
+[9] Cifrado de Home (fscrypt)
+"/home/prometheus" is encrypted with fscrypt.
+
+Policy:   13545de7dba4afcfcee5885ba406a33a
+Options:  padding:32 contents:AES_256_XTS filenames:AES_256_CTS policy_version:2
+Unlocked: Yes
+
+Protected with 1 protector:
+PROTECTOR         LINKED  DESCRIPTION
+3cff50ad4c311ec4  No      login protector for prometheus

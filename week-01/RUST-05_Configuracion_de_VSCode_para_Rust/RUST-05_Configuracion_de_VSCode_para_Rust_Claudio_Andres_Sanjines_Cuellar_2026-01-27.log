@@ -1,0 +1,29 @@
+RUST-05 – Configuración de VSCode para Rust
+Autor: Claudio Andres Sanjines Cuellar
+Fecha: 2026-01-27
+Sprint: 01 – Semana 1
+==================================================
+
+[1] Extensiones instaladas en VSCode
+rust-lang.rust-analyzer
+vadimcn.vscode-lldb
+
+[2] Configuración de VSCode (formato automático)
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "files.autoSave": "afterDelay",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "gitlens.hovers.currentLine.over": "line",
+
+    "editor.formatOnSave": true,
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    }
+}
+
+[3] Rust Formatter (rustfmt)
+rustfmt 1.8.0-stable (254b59607d 2026-01-19)
+
+[4] Herramientas adicionales de análisis
+cargo-audit-audit 0.22.0

@@ -1,0 +1,9 @@
+Confirmación de lectura:
+Por la presente, certifico haber leído y comprendido en su totalidad los siguientes documentos base y pliegos de proyectos:
+
+	* 01_Manual_de_Vuelo_Cultura_y_Comunicacion.pdf
+	* 02_Playbook_tecnico_(Estandares).pdf
+	* 03_Guia_de_Setup_y_Seguridad.pdf
+	* 04_Roadmap_de_30_días_(Metas_Checklist).pdf
+
+Asimismo, confirmo haber completado la configuración del entorno de trabajo y la verificación de versiones, medidas de seguridad y herramientas conforme a lo establecido en los documentos mencionados.

@@ -65,7 +65,7 @@ impl Vault {
     // Retorna la longitud de la clave secreta (sin exponerla).
     pub fn secret_key_len(&self) -> usize {
         self.secret_key.len()
-}
+    }
 }
 
 impl Vault {

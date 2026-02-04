@@ -120,7 +120,7 @@ mod tests {
             .timeout(300)
             .key(vec![9, 9, 9])
             .build();
-        
+
         assert!(res.is_err());
     }
 
@@ -135,5 +135,4 @@ mod tests {
 
         assert_eq!(v.get_timeout_seconds(), 300);
     }
-
 }

@@ -1,4 +1,4 @@
-# DS-01 — Stack (Pila) LIFO
+# 🟦 DS-01 — Stack (Pila) LIFO
 
 ## 📌 Descripción
 Implementación de una estructura de datos **Stack (Pila)** siguiendo el principio **LIFO (Last In, First Out)** usando `std::vec::Vec` en Rust.

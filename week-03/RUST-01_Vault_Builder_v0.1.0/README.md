@@ -1,6 +1,4 @@
-🟩 RUST-01 — Vault Builder
-
-# RUST-01 — Vault Builder
+# 🟩 RUST-01 — Vault Builder
 
 ## 📌 Descripción General
 Este proyecto implementa el **patrón Builder** para construir una **Bóveda Digital (Vault)** de forma segura y controlada.

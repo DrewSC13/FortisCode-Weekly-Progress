@@ -1,6 +1,5 @@
 # 🟦 DS-03 — Linked List Simple
 
-```markdown
 # DS-03 — Linked List Simple
 
 ## 📌 Descripción

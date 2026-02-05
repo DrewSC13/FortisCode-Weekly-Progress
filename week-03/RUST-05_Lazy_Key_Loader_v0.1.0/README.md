@@ -1,7 +1,5 @@
 # 🟩 RUST-05 — Lazy Key Loader  
-`README.md` **(completo, seguridad enfocada)**
 
-```markdown
 # RUST-05 — Lazy Key Loader
 
 ## 📌 Descripción General

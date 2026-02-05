@@ -1,7 +1,5 @@
 🟩 RUST-01 — Vault Builder
 
-README.md (versión completa y sólida)
-
 # RUST-01 — Vault Builder
 
 ## 📌 Descripción General

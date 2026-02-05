@@ -1,6 +1,5 @@
 # 🟦 DS-05 — Doubly Linked List
 
-```markdown
 # DS-05 — Doubly Linked List
 
 ## 📌 Descripción

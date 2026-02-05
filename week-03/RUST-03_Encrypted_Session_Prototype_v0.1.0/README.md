@@ -1,7 +1,5 @@
 # 🟩 RUST-03 — Encrypted Session Prototype  
-`README.md` **(ampliado y técnico)**
 
-```markdown
 # RUST-03 — Encrypted Session Prototype
 
 ## 📌 Descripción General

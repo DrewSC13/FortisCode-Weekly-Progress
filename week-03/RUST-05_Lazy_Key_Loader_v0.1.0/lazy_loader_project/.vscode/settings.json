@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.completion.autoimport.enable": true,
+    "rust-analyzer.lens.implementations.enable": true
+}

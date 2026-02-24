@@ -1,0 +1,25 @@
+# ---------- Stage 1: build ----------
+FROM rust:1.83-bookworm AS builder
+
+WORKDIR /work
+
+COPY Cargo.toml Cargo.lock ./
+COPY src ./src
+
+RUN rustc --version && cargo --version \
+  && cargo build --release \
+  && strip target/release/ghost_provisioner
+
+# ---------- Stage 2: runtime (distroless) ----------
+FROM gcr.io/distroless/cc-debian12:nonroot
+
+WORKDIR /app
+
+COPY --from=builder /work/target/release/ghost_provisioner /app/ghost_provisioner
+
+USER nonroot:nonroot
+
+EXPOSE 8080
+
+ENTRYPOINT ["/app/ghost_provisioner"]
+CMD ["serve"]

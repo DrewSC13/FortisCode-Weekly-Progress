@@ -1,0 +1,10 @@
+target/
+.git/
+.gitignore
+.env
+*.pem
+*.key
+secrets/
+**/*secret*
+**/*token*
+deploy/*.log

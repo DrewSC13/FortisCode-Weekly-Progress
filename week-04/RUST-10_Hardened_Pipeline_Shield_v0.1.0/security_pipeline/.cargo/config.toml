@@ -1,0 +1,7 @@
+[build]
+rustflags = [
+  "-C", "debuginfo=0",
+  "-C", "link-arg=-Wl,-z,relro",
+  "-C", "link-arg=-Wl,-z,now",
+  "-C", "link-arg=-Wl,--as-needed",
+]
